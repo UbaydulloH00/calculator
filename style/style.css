@@ -1,0 +1,126 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan';
+    font-weight: 700;
+   background: rgb(188, 188, 186);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 600px;
+
+}
+
+.block_display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+    width: 600px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #EEE;
+}
+.block_display input{
+    border-radius: 10px;
+    width: 540px;
+    border: none;
+    text-align: right;
+    flex:1;
+    font-size: 56px;
+    outline: none;
+}
+.block_button {
+    width: 600px;
+    padding-left: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: #D2CDCD;
+}
+
+.block_button input[type='button'] {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px -4px 0px 0px #A79E91 inset;
+    background: #E5E4E1;
+    color: #36362C;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.667px;
+    width: 101px;
+    height: 64px;
+}
+.block_button input[type='button']:hover{
+    background:#fff;
+}
+
+#del {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.467px;
+    border-radius: 10px;
+    background: #378187;
+    box-shadow: 0px -4px 0px 0px #1B6066 inset;
+}
+#del:hover{
+    background: #62B5BC;
+}
+
+#reset {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.467px;
+    width: 227px;
+    height: 64px;
+    border-radius: 10px;
+    background: #378187;
+    box-shadow: 0px -4px 0px 0px #1B6066 inset;
+}
+#reset:hover{
+    background: #62B5BC;
+}
+#teng {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.467px;
+    width: 227px;
+    height: 64px;
+    border-radius: 10px;
+    background: #C85402;
+    box-shadow: 0px -4px 0px 0px #873901 inset;
+}
+#teng:hover{
+    background: #FF8A38;
+}
